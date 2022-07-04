@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background-image: url(../video/1102463-pain.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.input {
+  border: none;
+  border: 2px solid rgb(41, 41, 68);
+  border-radius: 10px;
+  padding: 5px;
+}
+.btn {
+  background: rgb(41, 41, 68);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.weather-box {
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: rgb(41, 41, 68);
+  color: white;
+  border: 2px solid white;
+}
